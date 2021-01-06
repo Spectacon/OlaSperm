@@ -22,6 +22,22 @@
 
     </com.google.android.gms.ads.AdView>
 
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="672dp"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-3940256099942544/6300978111"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.263"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </com.google.android.gms.ads.AdView>
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
@@ -38,26 +54,25 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="108dp"
-        android:layout_marginBottom="80dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginBottom="76dp"
         android:text="Welcome To Admob Click Zone"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintBottom_toTopOf="@+id/rvideo"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/rvideo"
         android:layout_width="277dp"
         android:layout_height="50dp"
-        android:layout_marginBottom="84dp"
+        android:layout_marginBottom="88dp"
         android:text="REWARD VIDEO ADS(POINT = 0)"
         android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintBottom_toTopOf="@+id/interst"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.432"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/interst"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="96dp"

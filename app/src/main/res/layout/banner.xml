@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:adSize="SMART_BANNER"
-        app:adUnitId="ca-app-pub-3940256099942544/6300978111"
+        app:adUnitId="ca-app-pub-9592335534395150/5439843991"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="0dp">
 
@@ -20,17 +20,13 @@
 
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="344dp"
+        android:layout_marginTop="264dp"
         app:adSize="LARGE_BANNER"
-        app:adUnitId="ca-app-pub-3940256099942544/6300978111"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="parent">
+        app:adUnitId="ca-app-pub-9592335534395150/5439843991"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
 
     </com.google.android.gms.ads.AdView>
 
@@ -38,10 +34,11 @@
         android:id="@+id/adView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
         app:adSize="SMART_BANNER"
-        app:adUnitId="ca-app-pub-3940256099942544/6300978111"
+        app:adUnitId="ca-app-pub-9592335534395150/5439843991"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="-56dp">
+        tools:layout_editor_absoluteX="-34dp">
 
     </com.google.android.gms.ads.AdView>
 
