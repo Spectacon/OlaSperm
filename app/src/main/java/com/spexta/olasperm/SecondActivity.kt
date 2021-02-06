@@ -17,7 +17,9 @@ import com.google.android.gms.ads.rewarded.RewardedAdLoadCallback
 //const val REWARD_VIDEO_AD_UNIT_ID = "ca-app-pub-3940256099942544/5224354917"
 
 //Real device show
-const val AD_UNIT_ID = "ca-app-pub-9592335534395150/7514153622"
+// THis account id is from another source 
+const val AD_UNIT_ID = "ca-app-pub-8970869128063980/5263839310"
+
 const val REWARD_VIDEO_AD_UNIT_ID = "ca-app-pub-3940256099942544/5224354917"
 
 class SecondActivity : AppCompatActivity() {
